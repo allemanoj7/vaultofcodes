@@ -1,10 +1,16 @@
+body{
+    margin: 0px;
+}
 nav{
-    background-color: rgb(219, 239, 239);
+    background-color: rgb(226, 239, 239);
     width:100%;
     display: flex;
     margin-right: 3rem;
     justify-content: space-between;
     
+}
+.logo{
+    margin: 10px;
 }
 img:hover{
     transform: scale(1.05);
@@ -36,11 +42,15 @@ img:hover{
 }
 
 
-
+hr{
+    margin: 0px;
+}
 main{
-    background-color:rgb(219, 239, 239) ;
+    background-color:rgb(212, 240, 240) ;
 }
 h1{
+    padding-top: 10px;
+    margin: 0px;
     text-align: center;
 }
 .internships{
@@ -57,13 +67,15 @@ h1{
 }
 .card{
     margin: 20px;
-    padding: 5px;
+    padding: 30px;
     text-align: center;
-    border: 1px solid rgb(100, 87, 87);
+    border: 5px solid rgb(100, 87, 87);
+    border-radius: 5%;
     box-shadow: 0.6rem 0.6rem rgb(152, 149, 149);
 }
 
 .card:hover{
+    cursor: pointer;
     background-color:#fbaf59;
     transform: scale(1.05);
 }
@@ -71,27 +83,26 @@ h1{
 button{
     cursor: pointer;
     font-size: 1.3rem;
-    border-radius: 6px;
+    border-color: black;
+    border-radius: 8px;
     background-color: rgb(15, 241, 106);
     color: rgb(0, 0, 0);
 }
 
 
-footer{
-    width:100%;
-    text-align: center;
-    background-color: rgb(219, 239, 239);
-}
 
-footer div.logo{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    display: flex;
-    justify-content: space-between;
+footer{
+    background-color: rgb(209, 252, 252);
+}
+footer>h2{
+    padding-top: 10px;
+    margin:0PX;
+    text-align: center;
+}
+.ftr{
+    text-align: center;
+    margin:20px;
 }
 .connections:hover{
     transform: scale(1.02);
 }
-
-
-
